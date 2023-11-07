@@ -8,9 +8,7 @@ function App () {
       <Header />
       <Routes>
         <Route path='/merch' element={<Merch />} />
-
           </Routes>
-      
     </BrowserRouter>
     
   )
