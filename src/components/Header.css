@@ -1,0 +1,32 @@
+.header {
+  font-family: 'Gaegu';
+  text-decoration: none;
+  text-align: center;
+  display:flex;
+  justify-content: space-between;
+}
+
+img{
+  max-width: 275px;
+  max-height: auto;
+  margin-top: 10px;
+}
+
+@font-face {
+  font-family: 'Gaegu';
+  src: local('./Gaegu-Regular') format('ttf');
+}
+
+.link{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  transition: color 0.3s;
+  padding: 90px;
+  display: inline-flex;
+}
+
+.link:hover{
+  color: #ffd643;
+}
+
