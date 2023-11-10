@@ -1,15 +1,15 @@
 .header {
   font-family: 'Gaegu';
   text-decoration: none;
-  text-align: center;
-  display:flex;
-  justify-content: space-between;
+  display:inline-flex;
+
+  margin-top: 100px;
 }
 
-img{
-  max-width: 275px;
+.logo{
+  max-width: 300px;
   max-height: auto;
-  margin-top: 10px;
+  margin-top: -80px;
 }
 
 @font-face {
@@ -17,13 +17,16 @@ img{
   src: local('./Gaegu-Regular') format('ttf');
 }
 
+.comp{
+  display: inline;
+  margin: 80px;
+}
+
 .link{
   text-decoration: none;
   color: rgb(0, 0, 0);
   font-size: 35px;
-  transition: color 0.3s;
-  padding: 90px;
-  display: inline-flex;
+  transition: color 0.4s;
 }
 
 .link:hover{

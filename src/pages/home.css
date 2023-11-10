@@ -1,0 +1,53 @@
+p{
+    font-family: 'Gaegu';
+    text-align: center;
+    font-size: 40px;
+    margin-top: 15%;
+}
+
+.button{
+    font-family: 'Gaegu';
+    font-size: 40px;
+    text-decoration: none;
+    color: gray;
+    padding: 10px 20px;
+    background-color: lightgray;
+    border-radius: 15px;
+    transition: background-color 0.5s;
+}
+
+.button:hover{
+    background-color: rgb(232, 232, 232);
+    color: rgb(150, 150, 150);
+}
+
+.topHalf, .bottomHalf{
+    display: flex;
+    justify-content: center;
+}
+
+
+.Ducky{
+    max-width: 20%;
+    max-height: auto;
+    margin: 5% 3%;
+}
+
+.duckyCollage{
+    max-width: 40%;
+    max-height: auto;
+    margin-right: 5%;
+}
+
+.justFace{
+    width: 75px;
+    height:auto;
+    rotate: 180deg;
+    margin-top: -175px;
+    position: absolute;
+    margin-left: 50%;
+}
+
+.bottomText{
+    margin-top: 5%;
+}

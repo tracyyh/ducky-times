@@ -2,12 +2,14 @@ p{
     font-family: 'Gaegu';
     text-align: center;
     font-size: 40px;
-    margin-top:50px;
 }
 .salute{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0px;
     max-width: 100px;
+}
+
+.pageContent{
+    margin-top: -75px;
 }

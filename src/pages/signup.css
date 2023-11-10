@@ -1,0 +1,13 @@
+.thumb{
+    margin-top: 2%;
+}
+
+.texts{
+    font-family: 'Gaegu';
+    margin-top: 150px;
+    font-size: 40px;
+}
+
+.page{
+    display: flex;
+}

@@ -1,12 +1,12 @@
 import React from "react";
 import './merch.css';
-import Ducky from '../components/Salute.png';
+import Ducky from '../components/images/Salute.png';
  
 const Merch = () => {
     return (
-        <div>
+        <div className="pageContent">
             <p>merch coming soon...</p>
-            <img className="salute" src={Ducky}></img>
+            <img className="salute" src={Ducky} alt="Ducky saluting"></img>
         </div>
     );
 };
