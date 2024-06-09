@@ -5,6 +5,10 @@ p{
     margin-top: 15%;
 }
 
+div:hover{
+    cursor: url('../components/images/cursor.png'), pointer;
+}
+
 .button{
     font-family: 'Gaegu';
     font-size: 40px;

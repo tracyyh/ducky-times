@@ -1,0 +1,47 @@
+@import "../styles/globals.css";
+
+.linkContainer{
+  text-decoration: none;
+  color: black;
+	align-items: center;
+}
+
+.logo{
+  max-width: 300px;
+  max-height: auto;
+}
+
+@font-face {
+  font-family: 'Gaegu';
+  src: local('./Gaegu-Regular') format('ttf');
+}
+
+.navLinks{
+  display: flex;
+  align-items: center;
+  margin: 0px 0px;
+}
+
+.navStyling{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 3vh;
+}
+
+li {
+  display: flex;
+  font-style: normal;
+  width: 18vw;
+  letter-spacing: calc(13px * 0.03);
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  transition: color 0.4s;
+  justify-content: center;
+}
+
+li:hover{
+  color: #ffd643;
+}
+
