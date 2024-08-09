@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div>
             <nav className="topHalf">
-                <img className='justFace' src={justFace} alt="front view of just Ducky's face"/>
+                {/* <img className='justFace' src={justFace} alt="front view of just Ducky's face"/> */}
                 <p>Greetings Ducky fan.</p>
                 <img className='Ducky' src={Ducky} alt="Ducky with the label, Ducky"/>
             </nav>

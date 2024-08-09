@@ -1,0 +1,54 @@
+@import "../styles/globals.css";
+
+.logo {
+  max-width: 200px;
+  max-height: auto;
+  margin: 3vh 3vw;
+}
+
+.navLink {
+  text-decoration: none;
+  color: black;
+  text-align: left;
+}
+
+.closedNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.burger {
+  max-width: 2rem;
+  max-height: auto;
+  margin-right: 5vw;
+}
+
+.navMobileOpenLinks {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 15px 15px -2px lightgray;
+  position: fixed;
+  height: 100%;
+  left: 50%;
+  top: 0;
+  padding-top: 4vh;
+  width: 50vw; /* Set the width relative to the viewport width */
+  max-width: 100%; /* Ensure it doesn’t exceed the viewport size */
+  min-width: 200px; /* Minimum width to prevent it from becoming too small */
+}
+
+.panelLink {
+  margin-bottom: 5vh;
+  font-size: 30px;
+  padding: 1vh 5vw;
+}
+
+.x {
+  display: inline;
+  position: relative;
+  left: 40vw;
+  font-size: 50px;
+}

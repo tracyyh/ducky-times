@@ -16,8 +16,8 @@ function App () {
         <Route path='/merch' element={<Merch />} />
         <Route path='/signup' element={<Signup />} />
         <Route path='/signupThanks' element={<SignupThanks />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/contactThanks' element={<ContactThanks />} />
+        {/* <Route path='/contact' element={<Contact />} /> */}
+        {/* <Route path='/contactThanks' element={<ContactThanks />} /> */}
         </Routes>
     </BrowserRouter>
     

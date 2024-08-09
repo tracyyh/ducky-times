@@ -21,5 +21,20 @@ span,
 table,
 textarea,
 ul {
-    font-family: 'Gaegu';
+  font-family: "Gaegu";
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+body,
+html {
+  overscroll-behavior: hidden;
+  overflow-x: hidden;
+}
+
+li,
+ul {
+  list-style: none;
 }

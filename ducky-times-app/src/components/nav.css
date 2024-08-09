@@ -1,35 +1,34 @@
 @import "../styles/globals.css";
 
-.linkContainer{
+.linkContainer {
   text-decoration: none;
   color: black;
-	align-items: center;
+  align-items: center;
 }
 
-.logo{
+.logo {
   max-width: 300px;
   max-height: auto;
 }
 
 @font-face {
-  font-family: 'Gaegu';
-  src: local('./Gaegu-Regular') format('ttf');
+  font-family: "Gaegu";
+  src: local("./Gaegu-Regular") format("ttf");
 }
 
-.navLinks{
+.navLinks {
   display: flex;
   align-items: center;
-  margin: 0px 0px;
 }
 
-.navStyling{
+.navStyling {
   display: flex;
   justify-content: center;
   flex-direction: row;
   margin-top: 3vh;
 }
 
-li {
+.link {
   display: flex;
   font-style: normal;
   width: 18vw;
@@ -41,7 +40,6 @@ li {
   justify-content: center;
 }
 
-li:hover{
+li:hover {
   color: #ffd643;
 }
-

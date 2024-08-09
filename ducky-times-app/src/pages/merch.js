@@ -5,7 +5,7 @@ import Ducky from '../components/images/Salute.png';
 const Merch = () => {
     return (
         <div className="pageContent">
-            <p>merch coming soon...</p>
+            <p className="announcement">merch coming soon...</p>
             <img className="salute" src={Ducky} alt="Ducky saluting"></img>
         </div>
     );
