@@ -11,11 +11,6 @@
   max-height: auto;
 }
 
-@font-face {
-  font-family: "Gaegu";
-  src: local("./Gaegu-Regular") format("ttf");
-}
-
 .navLinks {
   display: flex;
   align-items: center;
