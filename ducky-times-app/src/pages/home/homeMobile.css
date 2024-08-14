@@ -4,10 +4,10 @@
 
 .buttonMobile {
   font-family: "Gaegu";
-  font-size: 35px;
+  font-size: 30px;
   text-decoration: none;
   color: gray;
-  padding: 10px 20px;
+  padding: 5px 15px;
   background-color: lightgray;
   border-radius: 15px;
   transition: background-color 0.5s;
