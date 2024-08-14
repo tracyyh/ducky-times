@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./homeMobile.css";
 import Ducky from "../../components/images/Ducky.png";
-import justFace from "../../components/images/justFace.png";
+// import justFace from "../../components/images/justFace.png";
 import duckyCollage from "../../components/images/duckyCollage.png";
 
 const HomeMobile = () => {

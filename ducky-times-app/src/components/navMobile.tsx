@@ -1,15 +1,13 @@
 import React from "react";
 import "./navMobile.css";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "./images/DuckyLogo.png";
 import Burger from "./icons/burger.png";
-import useBreakpoint, { BREAKPOINT } from "../helpers/useBreakpoint.tsx";
 import justface from "./images/justFace.png";
 
 export default function NavMobile({ isStatic = false }) {
   const [isOpen, setIsOpen] = useState(false);
-  const breakpoint = useBreakpoint();
 
   const open = () => {
     //setScrollY(window.scrollY);
