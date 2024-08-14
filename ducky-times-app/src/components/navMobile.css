@@ -29,7 +29,7 @@
   background-color: white;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 15px 15px -2px lightgray;
+  box-shadow: 0 0px 20px 0px lightgray;
   position: fixed;
   height: 100%;
   left: 50%;
@@ -38,6 +38,7 @@
   width: 50vw; /* Set the width relative to the viewport width */
   max-width: 100%; /* Ensure it doesn’t exceed the viewport size */
   min-width: 200px; /* Minimum width to prevent it from becoming too small */
+  justify-content: space-between;
 }
 
 .panelLink {
@@ -51,4 +52,9 @@
   position: relative;
   left: 40vw;
   font-size: 50px;
+}
+
+.justFaceMobile {
+  max-width: 30vw;
+  align-self: center;
 }

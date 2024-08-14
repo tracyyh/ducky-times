@@ -1,0 +1,82 @@
+/* div:hover{
+    cursor: url('../components/images/cursor.png'), pointer;
+} */
+
+.button {
+  font-family: "Gaegu";
+  font-size: 2vw;
+  text-decoration: none;
+  color: gray;
+  padding: 10px 20px;
+  background-color: lightgray;
+  border-radius: 15px;
+  transition: background-color 0.5s;
+}
+
+.button:hover {
+  background-color: rgb(232, 232, 232);
+  color: rgb(150, 150, 150);
+}
+
+.topHalf,
+.bottomHalfDesktop,
+.bottomHalfMidsize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topHalf {
+  flex-direction: row;
+}
+
+.bottomHalfMidsize {
+  flex-direction: column;
+  margin: 8% 0;
+}
+
+.bottomHalfDesktop {
+  margin: 8% 0;
+}
+
+.Ducky {
+  max-width: 20%;
+  max-height: auto;
+  margin: 1% 3%;
+}
+
+.duckyCollage {
+  max-width: 40%;
+  max-height: auto;
+  margin: 0 5%;
+}
+
+.justFace {
+  width: 75px;
+  height: auto;
+  rotate: 180deg;
+  margin-top: -175px;
+  position: absolute;
+  margin-left: 50%;
+}
+
+.bottomTextDesktop {
+  display: flex;
+  margin-top: 5%;
+  flex-direction: column;
+  align-items: left;
+}
+
+.bottomTextMidsize {
+  display: flex;
+  margin-top: 5%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.greeting,
+.watchDucky,
+.button {
+  font-family: "Gaegu";
+  font-size: 40px;
+}

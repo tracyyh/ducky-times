@@ -1,0 +1,65 @@
+/* div:hover{
+    cursor: url('../components/images/cursor.png'), pointer;
+} */
+
+.buttonMobile {
+  font-family: "Gaegu";
+  font-size: 35px;
+  text-decoration: none;
+  color: gray;
+  padding: 10px 20px;
+  background-color: lightgray;
+  border-radius: 15px;
+  transition: background-color 0.5s;
+}
+
+.button:hover {
+  background-color: rgb(232, 232, 232);
+  color: rgb(150, 150, 150);
+}
+
+.topHalfMobile,
+.bottomHalfMobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3vh;
+}
+
+.bottomHalfMobile {
+  margin: 20% 0;
+}
+
+.duckyMobile {
+  max-width: 40%;
+  max-height: auto;
+  margin: 5% 0;
+}
+
+.duckyCollageMobile {
+  max-width: 70%;
+  max-height: auto;
+  margin: 5% 5%;
+}
+
+.justFace {
+  width: 75px;
+  height: auto;
+  rotate: 180deg;
+  margin-top: -175px;
+  position: absolute;
+  margin-left: 50%;
+}
+
+.bottomText {
+  display: flex;
+  margin-top: 5%;
+  flex-direction: column;
+  align-items: left;
+}
+
+.greetingMobile,
+.watchDuckyMobile {
+  font-size: 35px;
+}
