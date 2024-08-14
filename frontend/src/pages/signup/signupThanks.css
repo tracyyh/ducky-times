@@ -1,12 +1,22 @@
-.texts{
-    font-family: 'Gaegu';
-    font-size: 40px;
-    text-align: center;
-    margin-right: 5%;
+.success {
+  font-family: "Gaegu";
+  font-size: 40px;
+  text-align: center;
+  max-width: 60%;
 }
 
-.Salute{
-    margin-left: 10%;
-    margin-right: 3%;
-    margin-top: 2%;
+.Salute {
+  margin: 0 3vw;
+  max-width: 30vw;
+}
+
+.pageThanks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.successDesc {
+  margin-bottom: 5vh;
 }
