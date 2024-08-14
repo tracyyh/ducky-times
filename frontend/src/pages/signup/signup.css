@@ -1,0 +1,18 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh 5vw;
+}
+
+.thumb {
+  width: 20vw;
+  height: auto;
+  margin: 0 2vw;
+}
+
+.texts {
+  font-family: "Gaegu";
+  font-size: 40px;
+}
