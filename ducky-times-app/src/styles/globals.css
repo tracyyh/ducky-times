@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Gaegu";
-  src: local("./Gaegu-Regular") format("ttf");
+  src: url("../components/gaegu/Gaegu-Regular.ttf") format("ttf");
 }
 
 a,
